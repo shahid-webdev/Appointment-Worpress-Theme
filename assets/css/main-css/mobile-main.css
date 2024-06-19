@@ -1,0 +1,742 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --transparent: transparent;
+}
+/*-------------- media section ---------------*/
+@media screen and (max-width:480px){
+  #our-services .area-box .working-title{
+    padding: 2px 15px 3px 15px;
+  }
+}
+@media screen and (max-width:474px){
+  #footer .about_me,#topbar,#topbar .social-icon,#footer h3,#video_sec,#footer ul li,#footer .about_me table p,.copyright p,.copyright .social-icon,#our-blogs .blog-but,#why-choose-us,.appointment-images,#our-blogs,#our-team,#our-team .team-button,#our-services,#our-services .service-button,#slider .slider-box,#about-us,#an-appointment .appointment-content .headbox{
+    text-align: center !important;
+  }
+  #our-blogs .blog-head h3:after,#footer h3:after,#why-choose-us .choose-us-box h3:after,#about-us h3:after,#our-team .team-head h3:after,#an-appointment .headbox:after,#our-services .services-head h3:after{
+    margin: 11px auto 18px;
+  }
+   #slider .small-text {
+    display: none;
+  }
+  .row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  #video_sec .video-text{
+    width: 100%;
+  }
+  .header-search .search-icon{
+    color: #3d7ee3;
+  }
+  .topbar-address ul{
+    padding-bottom: 0;
+  }
+  .header-search{
+    position: absolute;
+    top: 10px;
+    z-index: 99;
+    right: 13%;
+  }
+  .header-search i{
+    font-size: 16px;
+  }
+  .search_popup .search-submit{
+    padding: 5px 7px;
+    width: 40px;
+    height: 40px;
+  }
+  .hamburger{
+    margin-right: 0 !important;
+  }
+  #footer ul li a:after,#topbar .vwsmp_front:after,.contact-det-box:after,#slider h1:before,.why-choose-images:before,.why-choose-images:after,#slider p,#about-us .about-images:before,#about-us .about-images:after{
+    display: none;
+  }
+  #topbar,#our-blogs .blog-but{
+    padding-bottom: 15px;
+  }
+  .topbar-address ul li {
+    display: block;
+    text-align: center;
+  }
+  .carousel-caption{
+    position: unset !important  ;
+  }
+  #slider .slider-box{
+    left: 8%;
+    bottom: 16%;
+    max-width: 85%;
+    margin: 0 auto 18px;
+    transform: unset;
+  }
+  #slider .slider-button-1, #slider .slider-button-2{
+    font-size: 10px;
+    line-height: 15px;
+    margin: 0;
+    padding: 3px 7px;
+  }
+  #slider .carousel-prev-button {
+    left: 0;
+    top: 12%;
+  }
+  #slider .carousel-next-button {
+    right: 28px;
+    top: 12%;
+  }
+  #slider span{
+    font-size: 12px;
+    line-height: 15px;
+  }
+  #slider h1{
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0;
+    padding-left: 12px !important;
+    padding:0 0 10px !important;
+  }
+  #our-features{
+    margin-bottom: 25px;
+    top: 40px;
+  }
+  .header-social-icon a{
+    padding: 6px 11px;
+  }
+  #about-us .about-images,.why-choose-images img,.contact-det-box{
+    padding-right: 0;
+  }
+  #header .header-logo,.topbar-email{
+    padding-left: 0 !important;
+  }
+  #about-us h3,#video_sec p.small-title,#our-blogs .blog-head h3,.gellery-head h3,#our-team .team-head h3,#an-appointment .appointment-content .headbox,#our-services .services-head h3{
+    font-size: 20px;
+    line-height: 22px;
+  }
+  #about-us .text{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #our-services .area-content h4.area-title{
+    font-size: 18px;
+    margin-top: 18px !important;
+  }
+  #our-services .service-boxs,#why-choose-us,.appointment-images{
+    margin-top: 25px;
+  }
+  #our-team .team-button{
+    margin-bottom: 30px;
+  }
+  #video_sec{
+    background-color: #edeff0;
+    background-image: unset !important;
+  }
+   #our-records{
+    top: 25px;
+  }
+  #video_sec p.small-title,.testimonials-box .testi-text p{
+    max-width: 100%;
+  }
+  .video-text .hour-no span{
+    right: 0;
+  }
+  #our-blogs .blog-det{
+    position: unset;
+    width: 100%;
+    height: auto;
+    transform: unset;
+  }
+  #our-blogs .blog-img img,#an-appointment .appointmentCalender,#footer .wpcf7{
+    width: 100% !important;
+  }
+  #testimonial .textbxi{
+    padding-top: 0 !important;
+  }
+  #our-blogs .blog-text{
+    padding: 15px;
+  }
+  #footer_box .footer2{
+    padding: 0 !important;
+    border: none;
+  }
+  #header .menubar{
+    top: -42px;
+  }
+  #topbar{
+    padding-bottom: 8px;
+  }
+  .serach_outer i{
+    padding-right: 0;
+  }
+   #footer .about_me p, #footer .about_me .dempar{
+    display: block;
+  }
+  #about-us p{
+    padding-bottom: 3px;
+  }
+  .testimonials-box .test-img{
+    position: relative;
+  }
+  .test-img span i{
+    top: 27%;
+    left: 30%;
+    font-size: 13px;
+    padding: 13px;
+  }
+  #our-team .team-box .team-img img{
+    margin: 0 auto;
+  }
+  .closepop{
+    right: 0%;
+    margin: 12px;
+  }
+   #slider ol.carousel-indicators{
+    bottom: -25px;
+  }
+  #footer .footer1, #footer .footer3{
+    padding-top: 0;
+  }
+  #footer ul li a,#footer .about_me p, #footer .about_me .dempar,#footer .textwidget p, #footer .widget p, #footer .post-content a{
+    font-size: 14px;
+  }
+  #our-partners{
+    padding-bottom: 16px;
+  }
+  .customlogo_text{
+    font-size: 23px;
+  }
+}
+@media screen and (min-width:475px)  and (max-width:575px){
+  #our-team .team-box .team-img img{
+    margin: 0 auto;
+  }
+  #footer .about_me,#topbar,#topbar .social-icon,#footer h3,#video_sec,#footer ul li,#footer .about_me table p,.copyright p,.copyright .social-icon,#our-blogs .blog-but,#why-choose-us,.appointment-images,#our-blogs,#our-team,#our-team .team-button,#our-services,#our-services .service-button,#slider .slider-box,#about-us,#an-appointment .appointment-content .headbox{
+    text-align: center !important;
+  }
+  #footer .about_me p, #footer .about_me .dempar{
+    display: block;
+  }
+  #our-blogs .blog-head h3:after,#footer h3:after,#why-choose-us .choose-us-box h3:after,#about-us h3:after,#our-team .team-head h3:after,#an-appointment .headbox:after,#our-services .services-head h3:after{
+    margin: 11px auto 18px;
+  }
+  .header-search i{
+    font-size: 16px;
+  }
+  #slider span{
+    font-size: 12px;
+  }
+  .search_popup .search-submit{
+    padding: 5px 7px;
+    width: 40px;
+    height: 40px;
+  }
+  .row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+   #footer_box .footer2{
+    padding: 0 !important;
+    border: none;
+  }
+  #video_sec .video-text{
+    width: 100%;
+  }
+  .header-search .search-icon{
+    color: #3d7ee3;
+  }
+  .header-search{
+    position: absolute;
+    top: 21px;
+    z-index: 99;
+    right: 20%;
+  }
+  .header-search i{
+    font-size: 22px;
+  }
+  #footer ul li a:after,#topbar .vwsmp_front:after,#slider h1:before,.why-choose-images:before,.why-choose-images:after,#slider p,#about-us .about-images:before,#about-us .about-images:after{
+    display: none;
+  }
+  #our-blogs .blog-but{
+    padding-bottom: 15px;
+  }
+  #topbar{
+    padding-bottom: 8px;
+  }
+  .carousel-caption{
+    position: unset !important  ;
+  }
+  #slider .slider-box{
+    left: 8%;
+    bottom: 16%;
+    max-width: 85%;
+    margin: 0 auto;
+    margin-bottom: -35px;
+  }
+  #slider .carousel-prev-button {
+    left: 5px;
+    top: 12%;
+  }
+  #slider .carousel-next-button {
+    right: 40px;
+    top: 12%;
+  }
+  #slider h1{
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+    padding: 3px 0 9px 12px !important;
+  }
+  #our-features{
+    margin-bottom: 25px;
+    top: 40px;
+  }
+  #about-us .about-images,.why-choose-images img{
+    padding-right: 0;
+  }
+  #about-us h3,#video_sec p.small-title,#our-blogs .blog-head h3,.gellery-head h3,#our-team .team-head h3,#an-appointment .appointment-content .headbox,#our-services .services-head h3{
+    font-size: 22px;
+    line-height: 24px;
+  }
+  #about-us .text{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #our-services .area-content h4.area-title{
+    font-size: 18px;
+    margin-top: 18px !important;
+  }
+  #our-services .service-boxs,#why-choose-us,.appointment-images{
+    margin-top: 25px;
+  }
+  #our-team .team-button{
+    margin-bottom: 30px;
+  }
+  #video_sec{
+    background-color: #edeff0;
+    background-image: unset !important;
+  }
+   #our-records{
+    top: 25px;
+  }
+  #video_sec p.small-title{
+    max-width: 100%;
+  }
+  .video-text .hour-no span{
+    right: 0;
+  }
+  #our-blogs .blog-det{
+    position: unset;
+    width: 100%;
+    height: auto;
+    transform: unset;
+  }
+  #our-blogs .blog-img img{
+    width: 100%;
+  }
+  #header .menubar{
+    top: -32px;
+  }
+   .serach_outer i{
+    padding-right: 0;
+  }
+   #footer_box .footer2{
+    padding: 0 !important;
+    border: none;
+  }
+  #about-us p{
+    padding-bottom: 3px;
+  }
+  .testimonials-box .test-img span i{
+    left: 33%;
+  }
+   .closepop{
+    right: 0%;
+  }
+   #slider ol.carousel-indicators{
+    bottom: -25px;
+  }
+  #footer .footer1, #footer .footer3{
+    padding-top: 0;
+  }
+  #our-team .social-profiles a{
+    margin: 0;
+  }
+}
+@media screen and (min-width:576px)  and (max-width:767px){
+  #topbar,#topbar .social-icon,#footer h3,#footer ul li,#footer .about_me table p,.copyright p,.copyright .social-icon,#our-blogs .blog-but,#why-choose-us,.appointment-images,#our-blogs,#our-team,#our-team .team-button,#our-services,#our-services .service-button,#slider .slider-box,#about-us,#an-appointment .appointment-content .headbox{
+    text-align: center !important;
+  }
+  .testimonials-box .test-img span i{
+    left: 33%;
+  }
+  #topbar .vwsmp_front:after,#slider h1:before{
+    display: none;
+  }
+  #topbar,#our-team .team-button,#our-blogs .blog-but{
+    padding-bottom: 15px;
+  }
+  #our-features{
+    margin-bottom: 25px;
+    top: 40px;
+  }
+  .row{
+    margin-right: 0 !important;
+  }
+  .header-search .search-icon{
+    color: #3d7ee3;
+  }
+  .header-search{
+    position: absolute;
+    top: 21px;
+    z-index: 99;
+    right: 12%;
+  }
+  .hamburger,.about-box,#our-services .area-content h4.area-title{
+    padding-top: 22px !important;
+  }
+  #video_sec .video-text{
+    width: 100%;
+  }
+  .carousel-caption{
+    position: unset !important  ;
+  }
+  #slider .slider-box{
+    left: 8%;
+    bottom: 16%;
+    max-width: 85%;
+    margin: 0 auto;
+    margin-bottom: -25px;
+  }
+  #slider .carousel-prev-button {
+    left: 5px;
+    top: 12%;
+  }
+  .header-search i{
+    font-size: 22px;
+  }
+  #slider .carousel-next-button {
+    right: 40px;
+    top: 12%;
+  }
+  #slider h1{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+    padding-left: 12px !important;
+  }
+  #our-blogs .blog-head h3:after,#footer h3:after,#why-choose-us .choose-us-box h3:after,#about-us h3:after,#our-team .team-head h3:after,#an-appointment .headbox:after,#our-services .services-head h3:after{
+    margin: 11px auto 18px;
+  }
+  #our-services .services-box,#why-choose-us,.appointment-images{
+    margin-top: 30px;
+  }
+  #video_sec{
+    padding: 10px 0
+  }
+  #video_sec p.video-call{
+    margin-bottom: 0;
+  }
+  #video_sec p.small-title{
+    font-size: 18px;
+    max-width: 80%;
+    letter-spacing: 0;
+  }
+  #our-records{
+    top: 25px;
+  }
+  #video_sec i{
+    width: 40px;
+    height: 40px;
+    padding: 12px 13px;
+    font-size: 12px;
+  }
+  .copyright p{
+    font-size: 12px;
+  }
+   .closepop{
+    right: 0%;
+  }
+  #slider ol.carousel-indicators{
+    bottom: -25px;
+  }
+  #footer .footer1, #footer .footer3{
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width:768px)  and (max-width:991px){
+  #our-blogs .blog-meta span.blog-comments{
+    display: block;
+    padding-left: 0;
+  }
+  #footer .textwidget p, #footer .widget p, #footer .post-content a{
+    font-size: 12px;
+  }
+  .closepop{
+    right: 0%;
+  }
+  .contact-det-box, .topbar-email{
+    font-size: 11px;
+  }
+  #our-blogs .blog-meta a{
+    border: none;
+  }
+  .ea-bootstrap .col-md-6 {
+    max-width: 45%;
+    display: inline-grid;
+  }
+  .testimonials-box .test-img span i{
+    left: 33%;
+  }
+  #testimonial .owl-carousel .owl-dots{
+    padding-bottom: 8px;
+  }
+  .row{
+    margin-right: 0 !important;
+  }
+  .contact-det-box{
+    padding-right: 9px;
+  }
+  .topbar-email {
+    padding-left: 6px;
+  }
+  .topbar-address ul li i {
+    padding-right: 2px;
+  }
+  #slider h1{
+    font-size: 28px;
+    line-height: 32px;
+  }
+  #slider .slider-box{
+    max-width: 100%;
+    bottom: 50%;
+    top: 32%;
+    left: 15%;
+  }
+  #slider .carousel-prev-button{
+    left: 5px;
+  }
+  #slider .carousel-next-button{
+    right: 30px;
+  }
+  #slider .slider-button-1, #slider .slider-button-2{
+    padding: 2px 10px;
+  }
+  #about-us h3{
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #our-features .features-info h5{
+    padding: 30px 15px 10px;
+  }
+  #our-services .area-content h4.area-title{
+    font-size: 18px;
+    line-height: 20px;
+  }
+  #about-us .text,#our-services .area-content p,.testimonials-box .testi-text p,#why-choose-us .choose-us-box p.text, #why-choose-us .choose-us-box .textbtm{
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0 auto;
+  }
+  #an-appointment .appointmentCalender{
+    width: 360px !important;
+  }
+  #our-services .area-box,#why-choose-us{
+    margin: 0 !important;
+  }
+  #testimonial .textbxi,#about-us{
+    padding-top: 0 !important;
+  }
+  .service-boxs{
+    padding-top: 30px;
+  }
+  #video_sec{
+    padding-top: 15px;
+    padding-bottom: 50px;
+    background-size: 106%;
+  }
+  #our-blogs .box-content .blog-info,#why-choose-us .choose-us-box .textbtm,#slider p{
+    display: none;
+  }
+  #our-records{
+    top: 15px;
+    padding: 30px 0;
+  }
+  #why-choose-us .choose-us-box p.text{
+    padding: 0 0 15px;
+  }
+  #our-blogs .blog-meta a,#our-blogs .blog-meta span.blog-comments,.copyright p{
+    font-size: 12px;
+  }
+  .slider_rightimg{
+    text-align: right;
+    padding-right: 30px;
+  }
+  .slider_rightimg img {
+    width: 274px !important;
+    height: 330px;
+  }
+  #slider ol.carousel-indicators{
+    bottom: 19%;
+  }
+  #slider ol.carousel-indicators{
+    bottom: 25%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width:1023px) {
+  #slider .slider-box h1{
+    font-size: 30px;
+    line-height: 36px;
+  }
+  #slider .slider-box {
+    bottom: 8%;
+    left: 14%;
+  }
+  .slider_rightimg{
+    text-align: right;
+    padding-right: 40px;
+  }
+  .slider_rightimg img {
+    width: 373px !important;
+    height: 450px;
+  }
+  .customlogo_text{
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 1024px){
+  #header-menu .current_page_item:before{
+    content: none !important;
+  }
+  .headerbar,.side-navigation,.side-navigation li,.side-navigation ul li a,.side-navigation ul ul li,.side-navigation li.current_page_item{
+    display: block;
+  }
+  .headerbar {
+    margin: 0;
+  }
+  .hamburger {
+    padding: 18px 0 0;
+    line-height: 0;
+    display: inline-block;
+    margin-right: 40px;
+    cursor: pointer;
+  }
+  .header-search-box form{
+    margin-top: 0;
+  }
+  .page-template-home-page #header .menubar-box{
+    padding-bottom: 10px !important;
+  }
+  .main-header .side-navigation {
+    display: none
+  }
+  .side-navigation,.side-navigation li {
+    padding: 0;
+  }
+  .side-navigation ul li a {
+    padding: 6px 15px;
+    color: #000000 !important;
+    border-bottom: 2px solid var(--black3);
+    background: 0 0!important;
+    text-align: left;
+    font-size: 14px;
+  }
+  amp-sidebar#sidebar1 {
+    background: #ffffff;
+    width: 250px;
+    box-shadow: 0px 0px 8px #adadad;
+  }
+  #sidebar1 {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    visibility: hidden;
+    width: 300px;
+    height: 100%;
+    background: #48a770;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;    
+  }
+  #sidebar1 .side-navigation{
+    float: none;
+    clear: both;
+  }
+  .side-navigation ul li ul, .side-navigation ul li ul ul {
+    display: block !important;
+  }
+  .side-navigation ul ul,.side-navigation ul ul li {
+    background: var(--transparent) !important;
+    visibility: visible;
+    opacity: 1;
+  }
+  .side-navigation ul ul {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+  }
+  .side-navigation ul ul li{
+    padding-left: 15px;
+  }
+  .side-navigation ul.sub-menu li a:before{
+    content: none;
+  }
+  .side-navigation ul>li.menu-item-has-children>a:after{
+    margin-top: 0;
+  }
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+  .content_boxes figure #instagram-embed-0{
+    height: 706px;
+  }
+  #header .header-logo {
+    padding: 10px 0px 5px 15px;
+  }
+  .main-header{
+    padding: 0;
+  }
+  .close-sidebar i{
+    font-size: 30px;
+    padding: 15px 7px;
+    color: #151515;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+  .home .container{
+    max-width: 1024px !important;
+    margin: 0 auto;
+  }
+  .home .container-fluid{
+    max-width: 1350px !important;
+    margin: 0 auto;
+  }
+  #slider .slider-box {
+    max-width: 100%;
+    bottom: 10%;
+    left: 15%;
+  }
+  .closepop{
+    right: 9%;
+  }
+  .slider_rightimg{
+    text-align: right;
+    padding-right: 45px;
+  }
+  .slider_rightimg img {
+    width: 373px !important;
+    height: 450px;
+  }
+  #slider ol.carousel-indicators{
+    bottom: 19%;
+  }
+}
+/* ------------- Mozilla Style -------------- */
+@-moz-document url-prefix() {
+  .main-navigation ul{
+    text-align: left;
+  }
+  .main-navigation a{
+    font-size: 18px;
+  }
+}

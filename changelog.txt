@@ -1,0 +1,43 @@
+Version 0.0.1
+i) Initial Version Release
+
+Version 0.0.2 
+* Resolved customizer settings issue
+* Respomsive issue 
+
+Version 0.0.3 
+* Added Custom logo text with media hide/show
+* Resolved slider image issue
+* Added new preloader gif image
+
+Version 0.0.4
+* Added Gallery Plugin 
+
+Version 0.0.5
+
+* Improved Setup Wizard
+
+Version 0.0.6
+
+* Added My Account page url in setup wizard
+
+Version 0.0.7
+
+* Minor bug fixed
+
+Version 0.0.8
+
+* Update Setup Wizard
+
+Version 0.0.9
+
+* Update Text Editor
+
+Version 1.0 
+
+* Added new cutomizer setting
+* Added prefix ive in css and classes of ibtana template
+
+Version 1.0.1
+
+* Added Ibtana – Ecommerce Product Addons Plugin buy now button in plugin tab of getstarted

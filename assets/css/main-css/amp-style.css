@@ -1,0 +1,39 @@
+.i-amphtml-sidebar-mask {
+    position: static!important
+}
+#sidebar1{
+	width: 250px !important;
+}
+.i-amphtml-sidebar-mask{
+	width: 0 !important;
+	height: 0 !important;
+}
+amp-sidebar#sidebar1{
+  display: block !important;
+}
+.i-amphtml-sidebar-mask{
+	background-color: transparent !important;
+}
+[class*="amphtml-sidebar-mask"] { background: none; z-index: 999; }
+.owl-carousel {
+    display: inline-block !important;
+}
+#our-features .features-info,#our-team .team-box{
+    display: inline-block;
+    width: 24%;
+}
+#our-features .features-info img{
+    height: auto !important;
+    width: auto !important;
+}
+.owl-carousel{
+    position: relative;
+    min-height: 1px;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    width: 100%;
+}
+#vw-preloader-overlay{
+    display: none;
+}
